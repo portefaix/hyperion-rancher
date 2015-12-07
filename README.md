@@ -8,6 +8,7 @@
 [hyperion][] creates a Cloud environment :
 
 - Applications managment is performed using [Rancher][]
+- Container are hosted using [RancherOS][]
 
 ## Rancher
 
@@ -66,3 +67,6 @@ Nicolas Lamirault <nicolas.lamirault@gmail.com>
 
 [badge-license]: https://img.shields.io/badge/license-Apache_2-green.svg
 [badge-release]: https://img.shields.io/github/release/portefaix/hyperion-rancher.svg
+
+[Rancher]: http://rancher.com/rancher/
+[RancherOS]: http://rancher.com/rancher-os/
