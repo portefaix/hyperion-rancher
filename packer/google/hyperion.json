@@ -34,7 +34,8 @@
                 "sudo apt-get -y update",
                 "sudo apt-get purge lxc-docker",
                 "sudo apt-get -y install unzip docker-engine curl",
-                "sudo service docker start"
+                "sudo service docker start",
+                "sudo service ssh restart"
             ]
         },
         {
