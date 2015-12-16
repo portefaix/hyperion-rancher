@@ -33,4 +33,4 @@ Build the image
 [Packer]: https://www.packer.io/
 [Google cloud]: https://cloud.google.com
 
-[hyperion]: http://github.com/portefaix/hyperion-nomad
+[hyperion]: http://github.com/portefaix/hyperion-rancher
