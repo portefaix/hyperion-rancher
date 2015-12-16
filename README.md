@@ -8,12 +8,11 @@
 [hyperion][] creates a Cloud environment :
 
 - Applications managment is performed using [Rancher][]
-- Container are hosted using [RancherOS][]
 
 ## Rancher
 
 
-## Initialization
+## Local
 
 Initialize environment:
 
@@ -37,6 +36,26 @@ Check Docker containers :
 Then go to the Rancher UI on : `192.168.99.101:8080`
 
 
+## Cloud
+
+### Images
+
+Read guides to creates the machine for a cloud provider :
+
+* [Google cloud](https://github.com/portefaix/hyperion-rancher/blob/packer/google/README.md)
+* [AWS](https://github.com/portefaix/hyperion-rancher/blob/packer/ec2/README.md)
+* [Digitalocean](https://github.com/portefaix/hyperion-rancher/blob/packer/digitalocean/README.md)
+
+
+### Infratructure
+
+Read guides to creates the infrastructure :
+
+* [Google cloud](https://github.com/portefaix/hyperion-rancher/blob/infra/google/README.md)
+* [AWS](https://github.com/portefaix/hyperion-rancher/blob/infra/aws/README.md)
+* [Digitalocean](https://github.com/portefaix/hyperion-rancher/blob/infra/digitalocean/README.md)
+* [Openstack](https://github.com/portefaix/hyperion-rancher/blob/infra/openstack/README.md)
+
 
 ## Contributing
 
@@ -59,7 +78,6 @@ Nicolas Lamirault <nicolas.lamirault@gmail.com>
 
 
 [hyperion]: https://github.com/portefaix/hyperion-rancher
-[hyperion-services]: https://github.com/portefaix/hyperion-services
 [LICENSE]: https://github.com/portefaix/hyperion-rancher/blob/master/LICENSE
 [Issue tracker]: https://github.com/portefaix/hyperion-rancher/issues
 
