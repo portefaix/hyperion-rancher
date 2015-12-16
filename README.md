@@ -7,7 +7,7 @@
 
 [hyperion][] creates a Cloud environment :
 
-- Applications managment is performed using [Rancher][]
+- Applications managment is performed using [Rancher][] (UI available on *8080*)
 
 ## Rancher
 
@@ -37,6 +37,8 @@ Then go to the Rancher UI on : `192.168.99.101:8080`
 
 
 ## Cloud
+
+The Rancher UI is available on : `x.x.x.x:8080`
 
 ### Images
 
