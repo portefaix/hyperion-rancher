@@ -26,7 +26,8 @@
                 "sudo apt-get purge lxc-docker",
                 "sudo apt-get install linux-image-extra-$(uname -r)",
                 "sudo apt-get -y install unzip docker-engine curl",
-                "sudo service docker start"
+                "sudo systemctl enable docker",
+                "sudo systemctl start docker"
             ]
         },
         {
