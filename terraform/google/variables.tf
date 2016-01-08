@@ -30,7 +30,7 @@ variable "gce_zone" {
 
 variable "gce_image" {
   description = "The name of the image to base the launched instances."
-  default = "hyperion-rancher-0-1-0-v20151216"
+  default = "hyperion-rancher-0-2-0-v20160108"
 }
 
 variable "gce_machine_type_master" {

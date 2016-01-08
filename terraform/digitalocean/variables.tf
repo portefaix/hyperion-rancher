@@ -30,7 +30,6 @@ variable "do_region" {
 
 variable "do_image" {
     description = "The droplet image ID or slug to base the launched instances."
-    default = "ubuntu-15-04-x64"
 }
 
 variable "do_size_master" {
