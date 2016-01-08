@@ -19,7 +19,12 @@ resource "digitalocean_droplet" "hyperion-nomad-nodes" {
   }
 
   provisioner "remote-exec" {
-    inline = "sudo service docker start || sudo service docker restart"
+    inline = [
+      "sudo service docker start",
+      "sudo service ssh start",
+      "sudo docker start rancher-server"
+    ]
   }
+
 
 }
