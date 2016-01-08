@@ -3,8 +3,8 @@
     	"api_token": "",
         "region": "",
         "size": "",
-        "rancher_version": "v0.50.0",
-        "snapshot_name": "hyperion-rancher-0-1-0-{{timestamp}}"
+        "rancher_version": "v0.51.0",
+        "snapshot_name": "hyperion-rancher-0-2-0-{{timestamp}}"
     },
     "builders": [
         {

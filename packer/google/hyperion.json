@@ -6,8 +6,8 @@
         "zone": "",
         "machine_type": "",
         "cluster_name": "",
-        "rancher_version": "v0.50.0",
-        "image_name": "hyperion-rancher-0-1-0-v20151216",
+        "rancher_version": "v0.51.0",
+        "image_name": "hyperion-rancher-0-2-0-v20160108",
         "image_description": "Rancher Base Image for Hyperion"
     },
     "builders": [
