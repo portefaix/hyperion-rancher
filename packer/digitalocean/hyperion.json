@@ -3,8 +3,8 @@
     	"api_token": "",
         "region": "",
         "size": "",
-        "rancher_version": "v0.50.0",
-        "snapshot_name": "hyperion-rancher-0-1-0-{{timestamp}}"
+        "rancher_version": "v0.51.0",
+        "snapshot_name": "hyperion-rancher-0-2-0-{{timestamp}}"
     },
     "builders": [
         {
@@ -26,7 +26,8 @@
                 "sudo apt-get purge lxc-docker",
                 "sudo apt-get install linux-image-extra-$(uname -r)",
                 "sudo apt-get -y install unzip docker-engine curl",
-                "sudo service docker start"
+                "sudo systemctl enable docker",
+                "sudo systemctl start docker"
             ]
         },
         {

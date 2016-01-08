@@ -6,8 +6,8 @@
         "zone": "",
         "machine_type": "",
         "cluster_name": "",
-        "rancher_version": "v0.50.0",
-        "image_name": "hyperion-rancher-0-1-0-v20151216",
+        "rancher_version": "v0.51.0",
+        "image_name": "hyperion-rancher-0-2-0-v20160108",
         "image_description": "Rancher Base Image for Hyperion"
     },
     "builders": [
@@ -34,8 +34,8 @@
                 "sudo apt-get -y update",
                 "sudo apt-get purge lxc-docker",
                 "sudo apt-get -y install unzip docker-engine curl",
-                "sudo service docker start",
-                "sudo service ssh restart"
+                "sudo systemctl enable docker",
+                "sudo systemctl start docker"
             ]
         },
         {

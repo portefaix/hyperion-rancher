@@ -73,7 +73,8 @@ resource "google_compute_instance" "hyperion-master" {
   provisioner "remote-exec" {
     inline = [
       "sudo service docker start",
-      "sudo service ssh start"
+      "sudo service ssh start",
+      "sudo docker start rancher-server"
     ]
   }
 }
