@@ -1,6 +1,10 @@
 Hyperion Rancher ChangeLog
 ======================
 
+# Version 1.0.0 (IN PROGRESS)
+
+- Upgrade Packer images to Rancher 1.0.0
+
 # Version 0.2.0 (08/01/2016)
 
 - Add EC2 deployment
