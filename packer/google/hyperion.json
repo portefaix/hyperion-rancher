@@ -6,8 +6,8 @@
         "zone": "",
         "machine_type": "",
         "cluster_name": "",
-        "rancher_version": "v0.51.0",
-        "image_name": "hyperion-rancher-0-2-0-v20160108",
+        "rancher_version": "v1.0.0",
+        "image_name": "hyperion-rancher-0-3-0-v20160329",
         "image_description": "Rancher Base Image for Hyperion"
     },
     "builders": [
@@ -15,7 +15,7 @@
             "type": "googlecompute",
             "account_file": "{{user `account_file`}}",
             "project_id": "{{user `project_id`}}",
-            "source_image": "debian-8-jessie-v20151104",
+            "source_image": "debian-8-jessie-v20160301",
             "zone": "{{user `zone`}}",
             "disk_size": 20,
             "image_name": "{{user `image_name`}}",

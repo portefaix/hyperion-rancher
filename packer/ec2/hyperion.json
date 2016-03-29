@@ -10,8 +10,8 @@
         "instance_type": "",
         "region": "eu-west-1",
         "ec2_version": "1.5.7",
-        "rancher_version": "v0.51.0",
-        "ami_name": "hyperion-rancher-0-2-0 {{timestamp}}",
+        "rancher_version": "v1.0.0",
+        "ami_name": "hyperion-rancher-0-3-0 {{timestamp}}",
         "ami_description": "Base Image for Hyperion Rancher"
     },
 
